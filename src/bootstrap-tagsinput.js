@@ -3,8 +3,16 @@
 
   var defaultOptions = {
     tagClass: function(item) {
-      // return 'label label-info';
-      return 'badge bg-info';
+      btsVersion = bootstrap.Tooltip.VERSION;
+      if(btsVersion.startsWith(4) || btsVersion.startsWith(3))
+      {
+        return 'label label-info';
+      }
+      if(btsVersion.startsWith(5))
+      {
+        return 'badge bg-info';
+      }
+
     },
     focusClass: 'focus',
     itemValue: function(item) {
