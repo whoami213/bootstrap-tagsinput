@@ -1,7 +1,9 @@
-# Bootstrap5 Tags Input [![Build Status](https://travis-ci.org/bootstrap-tagsinput/bootstrap-tagsinput.svg?branch=master)](https://travis-ci.org/bootstrap-tagsinput/bootstrap-tagsinput)
+# Bootstrap Tags Input [![Build Status](https://travis-ci.org/bootstrap-tagsinput/bootstrap-tagsinput.svg?branch=master)](https://travis-ci.org/bootstrap-tagsinput/bootstrap-tagsinput)
 Bootstrap Tags Input is a jQuery plugin providing a Twitter Bootstrap user interface for managing tags.
 
 Current stable version: **v0.8.0**
+
+### This now support the latest bootsrap version 5
 
 ## Usage
 Examples can be found [here](http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/).
@@ -10,7 +12,7 @@ Examples can be found [here](http://bootstrap-tagsinput.github.io/bootstrap-tags
 * Objects as tags
 * True multi value
 * Typeahead
-* Designed for Bootstrap 2.3.2 and 3
+* Designed for Bootstrap 2.3.2,3,4, and latest version 5
 
 ### Objects as tags
 Not just support for using strings! This means you can use different values
