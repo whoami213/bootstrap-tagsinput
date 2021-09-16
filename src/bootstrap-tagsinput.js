@@ -3,7 +3,7 @@
 
   var defaultOptions = {
     tagClass: function(item) {
-      btsVersion = bootstrap.Tooltip.VERSION;
+      let btsVersion = bootstrap.Tooltip.VERSION;
       if(btsVersion.startsWith(4) || btsVersion.startsWith(3))
       {
         return 'label label-info';
